@@ -23,4 +23,4 @@ jobs:
         with:
           context: .  # Il contesto di build, in questo caso l'intera repository
           push: true  # Pubblica l'immagine su Docker Hub
-          tags: ${{ secrets.DOCKER_USERNAME }}/ti-voglio-bene-denver:latest  # Nome e tag dell'immagine
+          tags: ${{ secrets.GITHUB_USERNAME }}/ti-voglio-bene-denver:latest  # Nome e tag dell'immagine
